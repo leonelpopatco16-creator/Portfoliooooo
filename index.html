@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leonel Popatco — E‑Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-dot" aria-hidden="true"></div>
+        <span class="brand-name" id="brandName">Leonel Popatco</span>
+      </div>
+      <nav class="nav" id="siteNav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="heroName">Leonel Popatco</h1>
+          <p class="subtitle">Aspiring Developer • Problem Solver • Lifelong Learner</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img id="profileImage" src="assets/nel.jfif" alt="Portrait of Leonel Popatco">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Motivated and detail-oriented professional with a strong commitment to excellence and continuous learning.
+          Seeking to contribute my expertise and enthusiasm to a dynamic organization where I can grow and add value.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-list" id="skillsList"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2>Certificates</h2>
+        <p class="meta-note" id="certCount">Found 0 certificate image(s) in <code>assets/certificates</code>.</p>
+        <div class="certs-grid" id="certsGrid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-box">
+          <p>Email: <a href="mailto:leonelpopatco16@gmail.com">leonelpopatco16@gmail.com</a></p>
+          <p>Facebook: <a href="https://www.facebook.com/leonel.popatco.2024" target="_blank" rel="noopener">facebook.com/leonel.popatco.2024</a></p>
+          <p>Phone Number: <a href="tel:09069329185">09069329185</a></p>
+          <p>Location: Philippines</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p id="footerCopy">© <span id="year"></span> Leonel Popatco. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="public/js/main.js"></script>
+</body>
+</html>
